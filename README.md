@@ -18,6 +18,10 @@ This project allows users to upload a PDF file and ask questions about its conte
 ## APIs Used
 - `Google Generative AI API` (Gemini)
 
+## Process Diagram
+![Flow Chart](https://github.com/user-attachments/assets/f3075a3a-915e-432f-8e4e-29ccd632ddfe)
+
+
 ## Installation & Setup
 ### Step 1: Install Dependencies
 ```sh
