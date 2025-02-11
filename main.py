@@ -41,7 +41,7 @@ def main():
         chunks = text_splitter.split_text(text)
 
         # Create embeddings (Using HuggingFace instead of OpenAI)
-        embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+        embeddings = HuggingFaceEmbeddings(model_name="local_model")
         knowledge_base = FAISS.from_texts(chunks, embeddings)
 
         # User Question
